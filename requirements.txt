@@ -1,0 +1,6 @@
+flask
+twilio
+requests
+flask-cors
+gunicorn
+postgres
