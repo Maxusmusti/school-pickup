@@ -226,7 +226,7 @@ class Database:
 account_sid = os.environ["ACCOUNT_SID"]
 auth_token = os.environ["AUTH_TOKEN"]
 
-app = Flask(__name__, static_folder="../school-todo/build")
+app = Flask(__name__, static_folder="../school-frontend/build")
 CORS(app)
 
 db = Database.init_db()
